@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.logo{
+    padding: 15px;
+    margin-top: 20px;
+} 
+
+.menu{
+    display: flex;
+    line-height: 80px; 
+    font-family: Tahoma; 
+}
+
+.menu ul{
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    color: rgb(86, 85, 85);
+    text-decoration: none;
+    padding: 30px;
+    font-size: 15px;
+    border-right: 1px; 
+}
+
