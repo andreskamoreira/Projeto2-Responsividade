@@ -35,3 +35,31 @@ nav{
     border-right: 1px; 
 }
 
+@media (max-width: 426px){
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo{
+        height: 80px;
+        width: 80px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo a{
+        width: 80%;
+    }
+
+    .menu{
+        padding: 0;
+        margin: 0;
+        position: left;
+    }
+
+}
+

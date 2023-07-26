@@ -1,7 +1,7 @@
-import Header from './assets/Components/Header/Header'
-import Footer from './assets/Components/Footer/Footer'
-import Section from './assets/Components/Sections/Section'
-import SectionTwo from './assets/Components/Sections/SectionTwo'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
+import Section from './components/Sections/Section'
+import SectionTwo from './components/Sections/SectionTwo'
 import './App.css'
 
 function App() {

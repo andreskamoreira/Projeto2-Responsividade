@@ -1,5 +1,5 @@
-import style from '../Sections/Section.module.css'
-import image2 from '../Sections/illustration-1.svg'
+import style from './Section.module.css'
+import image2 from '../../assets/illustration-1.svg'
 
 export default function Section (){
     return(

@@ -1,8 +1,8 @@
-import style from '../Sections/SectionTwo.module.css'
-import image2 from '../Sections/illustration-2.svg'
-import image3 from '../Sections/icon-arrow.svg'
-import image4 from '../Sections/icon-quotes.svg'
-import image5 from '../Sections/avatar-testimonial.jpg'
+import style from './SectionTwo.module.css'
+import image2 from '../../assets/illustration-2.svg'
+import image3 from '../../assets/icon-arrow.svg'
+import image4 from '../../assets/icon-quotes.svg'
+import image5 from '../../assets/avatar-testimonial.jpg'
 
 export default function Section (){
     return(
@@ -17,17 +17,26 @@ export default function Section (){
                         live colaboration. No email attachments required!
                     </p>
                     <a className={style.link} href="#">See how Fylo works <img src={image3}/></a>
-                    <p className={style.bloco}>
+                    <div className={style.card}>
                         <img src={image4} />
                         <p>Fylo has improved our team productivity by an order of magnitude.
                         Since making the switch our team has become a well-oiled colloboration machine
                         </p>
-                        {<img src={image5} width={"20%"}/>}
-                    </p>
+                        <div className={style.cardimage}>
+                            <div>
+                                <img src={image5} />
+                            </div>
+                            <div>
+                                <p>Kyle Burton</p>
+                                <p>Founder & CEO, Huddle</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-            <div>
+            <div className={style.img}>
                 <img src={image2} alt="Ilustração" width={"80%"}/>
+                
             </div>
         </div>
     )
