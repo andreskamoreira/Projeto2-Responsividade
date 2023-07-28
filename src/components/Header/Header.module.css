@@ -68,3 +68,17 @@ nav{
 
 }
 
+
+@media (max-width: 376px){
+    
+    .logo{
+        width: 100px;
+        margin: 25px 110px;
+    }
+
+    .menu{
+        width: 360px;
+    }
+
+}
+

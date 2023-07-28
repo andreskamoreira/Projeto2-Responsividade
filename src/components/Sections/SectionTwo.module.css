@@ -139,3 +139,14 @@
         width: 150px;
     }
 }
+
+@media (max-width: 426px) {
+
+    .card{
+        width: 280px;
+        height: 150px;
+        flex-direction: column;
+        padding: 40px 30px;
+    } 
+
+}

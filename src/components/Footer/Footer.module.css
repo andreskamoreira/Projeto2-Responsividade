@@ -173,3 +173,23 @@
         }
         
     }
+
+    @media (max-width: 376px) {
+    
+        .infor{
+            width: 300px;
+            display: inline-block;
+        }
+
+        .logo{
+            width: 200px;
+            line-height: 0px;
+            align-items: center;
+            margin: 30px;
+        }
+        .about{
+            width: 150px;
+            margin: 30px;
+        }
+        
+    }
