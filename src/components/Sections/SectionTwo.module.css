@@ -4,7 +4,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 90%;
     margin: 0 auto; 
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     justify-content: space-between;
 }
 
@@ -50,12 +50,64 @@
     .sectionTwo{
         display: flex;
         align-items: center;
+        
     }
 
+    .text1{
+        padding: 0;
+        width: 400px;
+    }
+
+    
     .img{
-        margin: 15px 30px;
+        padding: 0;
     }  
+
+    .card{
+        width: 350px;
+        height: 150px;
+        flex-direction: column;
+        padding: 40px 30px;
+    } 
+
+    .aspas{
+       align-items: 0 auto;
+       width: 15px;
+    }
    
+    .cardimage{
+        display: flex;
+        justify-content: baseline;
+    }
+    .card p{
+        font-size: small;   
+    }
+
+    .cardimage p{
+        font-size: small;
+        gap: 0;
+    }
+
+    .founder{
+        width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .sectionTwo{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .text1{
+        width: 300px;
+    }
+
+    .card{
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 426px) {

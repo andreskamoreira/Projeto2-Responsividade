@@ -35,6 +35,17 @@ nav{
     border-right: 1px; 
 }
 
+@media (max-width: 768px){
+
+    .nav{
+        margin: 0;
+    }
+    .menu{
+        width: 500px;
+        justify-content: end;
+    }
+}
+
 @media (max-width: 426px){
 
     .nav{

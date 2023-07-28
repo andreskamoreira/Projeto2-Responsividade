@@ -136,27 +136,14 @@
 
 @media (max-width: 768px) {
 
-    .footer{
-        width: 100%;
-    }
-
-    .acess{
-        width: 100%;
-    }
-
     .text{
-        width: 50%;
+        width: 400px;
     }
 
     .form{
-        width: 50%;
+        width: 400px;
     }
-
-    .caixa{
-        width: 250px;
-    }
-
-    }
+}
 
     @media (max-width: 426px) {
     

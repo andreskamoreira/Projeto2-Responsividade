@@ -55,17 +55,27 @@
         align-items: center;
     }
 
-    .img{
-        margin: 15px 30px;
-    }  
+    .text1{
+        padding: 0;
+    }
    
 }
 
 @media (max-width: 768px) {
     
     .section{
-        padding: 0;
-        padding-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .text1{
+        width: 300px;
+    }
+
+    .caixa{
+        width: 250px;
+        height: 30px;
     }
 }
 

@@ -18,13 +18,13 @@ export default function Section (){
                     </p>
                     <a className={style.link} href="#">See how Fylo works <img src={image3}/></a>
                     <div className={style.card}>
-                        <img src={image4} />
+                        <img src={image4} width={"5%"} className={style.aspas}/>
                         <p>Fylo has improved our team productivity by an order of magnitude.
                         Since making the switch our team has become a well-oiled colloboration machine
                         </p>
                         <div className={style.cardimage}>
-                            <div>
-                                <img src={image5} />
+                            <div className={style.founder}>
+                                <img src={image5} width={"50%"}/>
                             </div>
                             <div>
                                 <p>Kyle Burton</p>

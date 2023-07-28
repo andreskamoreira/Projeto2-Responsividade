@@ -4,7 +4,7 @@ import image1 from "../../assets/logo.svg"
 
 export default function Header (){
     return(
-        <nav>
+        <nav className={styles.nav}>
             <div className={styles.logo}>
                 <a href="#"><img src={image1} alt="logo" width={"90%"} /></a>
             </div>
