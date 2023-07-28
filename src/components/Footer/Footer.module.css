@@ -143,6 +143,14 @@
     .form{
         width: 400px;
     }
+
+    .infor{
+        width: 692px;
+    }
+    .about{
+        width: 300px;
+    }
+   
 }
 
     @media (max-width: 426px) {
@@ -158,18 +166,10 @@
         }
 
         .infor{
-            margin: 0;
-            padding: 15px;
+            width: 350px;
         }
-
-        .logo{
-            line-height: 30px;
-            width: 100px;
-            height: 200px;
+        .about{
+            width: 200px;
         }
-
-        .links{
-            line-height: 20px;
-            justify-content: 15px;
-        }
+        
     }

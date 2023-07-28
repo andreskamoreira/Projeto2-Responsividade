@@ -89,13 +89,23 @@
 
     .text1{
         width: 100%;
+        padding: 0px;
     }
 
     .text1 h2{
-        font-size: 30px;
+        font-size: 31px;
     }
 
     .text1 p{
-        font-size: 15px;
+        font-size: 16px;
     }
+
+    .caixa{
+        width: 100px;
+    }
+
+    .buttom{
+        width: 150px;
+    }
+    
 }

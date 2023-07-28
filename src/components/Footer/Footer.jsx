@@ -33,7 +33,7 @@ export default function Footer (){
                             <p>example@fylo.com</p>
                         </div>
                 </div>
-                <div>
+                <div className={style.about}>
                     <nav>
                         <ul className={style.links}>
                             <li><a href="#">About Us</a></li>

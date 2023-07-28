@@ -105,36 +105,37 @@
         width: 300px;
     }
 
-    .card{
-        margin-bottom: 30px;
-    }
 }
 
 @media (max-width: 426px) {
     
     .sectionTwo{
          display: inline-block; 
-         width: 90%;
-    }
-
-    .text1{
-       display: inline-block;
+         width: 100%;
     }
 
     .text1 h2{
-        font-size: 30px;
+        font-size: 31px;
     }
 
     .text1 p{
-        font-size: 15px;
+        font-size: 16px;
     }
 
-    .card{
-        font-size: 12px;
-        
+    .cardimage{
+        display: flex;
+        justify-content: baseline;
+    }
+    .card p{
+        font-size: small;   
     }
 
-    .img{
-        margin-bottom: 5px;
+    .cardimage p{
+        font-size: small;
+        gap: 0;
+    }
+
+    .founder{
+        width: 150px;
     }
 }
