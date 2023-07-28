@@ -150,3 +150,10 @@
     } 
 
 }
+
+@media (max-width: 376px) {
+    
+    .img{
+        width: 300px;
+    }
+}
