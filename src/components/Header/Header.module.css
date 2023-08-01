@@ -73,12 +73,15 @@ nav{
     
     .logo{
         width: 100px;
-        margin: 25px 110px;
+        margin: 10px 110px;
+        padding: 0px;
     }
 
     .menu{
-        width: 360px;
-    }
+        width: auto;
+        height: 90px;
+        margin: 0px;
+        }
 
 }
 

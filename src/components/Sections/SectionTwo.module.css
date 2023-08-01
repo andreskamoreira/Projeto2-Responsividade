@@ -112,6 +112,7 @@
     .sectionTwo{
          display: inline-block; 
          width: 100%;
+         padding: 0px;
     }
 
     .text1 h2{
