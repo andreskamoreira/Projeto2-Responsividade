@@ -144,9 +144,7 @@
         width: 400px;
     }
 
-    .infor{
-        width: 692px;
-    }
+
     .about{
         width: 300px;
     }
@@ -158,16 +156,12 @@
         .footer{
             margin-top: 0;
             display: block;
-            width: 100%;
         }
 
         .caixa{
             width: 150px;
         }
 
-        .infor{
-            width: 350px;
-        }
         .about{
             width: 200px;
         }
@@ -177,8 +171,24 @@
     @media (max-width: 376px) {
     
         .infor{
-            width: 300px;
+            display: inline-block;   
+        }
+
+        .acess{
             display: inline-block;
+            width: 100%;
+        }
+
+        .text{
+           width: 300px;
+        }
+
+        .infor{
+            width: 100%;
+        }
+
+        .form{
+            width: 20px;
         }
 
         .logo{
@@ -188,8 +198,7 @@
             margin: 30px;
         }
         .about{
-            width: 150px;
             margin: 30px;
         }
-        
+      
     }
